@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campo A/B</title>
+    <link rel="stylesheet" href="./index.js" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="container__title">EBAC</h1>
+      <form>
+        <input
+          class="container__input1"
+          type="number"
+          id="typeA"
+          required
+          placeholder="Número A"
+        />
+        <input
+          class="container__input2"
+          type="number"
+          id="typeB"
+          required
+          placeholder="Número B"
+        />
+        <button class="container__btn" id="send" type="submit">Enviar</button>
+      </form>
+      <p class="okMessage"></p>
+      <p class="invalidNumber"></p>
+      <script src="./index.js"></script>
+    </div>
+  </body>
+</html>
